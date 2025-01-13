@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f5f2;
+    background-image: url(/checkout/coffee\ background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #004225;
+}
+
+header {
+    background-color: #ffffff;
+    color: #4E342E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    border-radius: 50%;
+    border: 2px solid #4E342E;
+}
+
+#drink-section, #pastries-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#drink-section img, #pastries-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button#calculate-btn {
+    background-color: #006341;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+button#calculate-btn:hover {
+    background-color: #004225;
+}
+
+#total-price {
+    color: #4E342E;
+    font-weight: bold;
+    font-size: 2rem;
+}
