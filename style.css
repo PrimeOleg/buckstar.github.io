@@ -7,7 +7,6 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Navigation Bar */
 .navbar {
     background-color: #006341;
     padding: 10px 20px;
@@ -47,13 +46,12 @@ body {
     text-decoration: underline;
 }
 
-/* Hero Section */
 .hero {
-    background-image: url('coffee-background.jpg');
+    background-image: url('./assets/images/coffee-background.jpg');
     background-size: cover;
     background-position: center;
     height: 90vh;
-    color: #ffffff;
+    color: #006341;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +82,6 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: #ffffff;
